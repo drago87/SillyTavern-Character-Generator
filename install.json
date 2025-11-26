@@ -1,0 +1,25 @@
+{
+  "run": [
+    {
+      "method": "shell.run",
+      "params": {
+        "message": [
+          "git clone https://github.com/Tremontaine/character-card-generator.git app"
+        ]
+      }
+    },
+    {
+      "method": "shell.run",
+      "params": {
+        "path": "app",
+        "chain": true,
+        "input": null,
+        "message": [
+          "npm install",
+          "cd proxy && npm install",
+          "cd .."
+        ]
+      }
+    }
+  ]
+}

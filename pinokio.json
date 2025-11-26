@@ -1,0 +1,7 @@
+{
+  "title": "SillyTavern Character Generator",
+  "plugin": {
+    "menu": []
+  },
+  "description": "# SillyTavern Character Generator\r\n\r\nA pinokio script for https://github.com/Tremontaine/character-card-generator\r\n\r\nWhen used with KoboldCPP use http://localhost:5001/v1\r\nWhere 5001 is the port reported by KoboldCPP when starting\r\nText API Key needs to be filled with anything. (If left empty will give a error so just add anything to it)"
+}
